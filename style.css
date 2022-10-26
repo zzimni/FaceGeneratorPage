@@ -19,7 +19,7 @@ body {
 
 #left {
   width: 40%;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   /* background-color: aqua; */
 }
 
@@ -35,7 +35,8 @@ div {
 
 button {
   background-color: white;
-  font-size: ;
+  font-size: 20px;
+  padding: 10px 20px;
 }
 
 footer {
@@ -43,7 +44,11 @@ footer {
 }
 
 button {
-  margin: 50px;
+  margin: 30px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .right-container {
@@ -68,9 +73,15 @@ img:hover {
 
 .small-category {
   border-top: 0.5px solid rgba(255, 255, 255, 0.395);
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .label {
   box-sizing: border-box;
   margin: 10px;
+}
+
+.label:first-child {
+  margin-left: 15px;
 }
