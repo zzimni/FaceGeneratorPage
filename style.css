@@ -1,88 +1,92 @@
-html {
-  height: 100%;
-}
 body {
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
-  overflow-y: scroll;
-  background-color: #333;
+  background-color: black;
   color: white;
-  height: 100%;
 }
 
 .container {
+  display: grid;
+}
+
+.montage-generator-header {
+  width: 100%;
+}
+
+.header-wrap {
   display: flex;
-  flex-wrap: nowrap;
-  align-items: stretch;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
 }
 
-#left {
-  width: 40%;
-  /* box-sizing: border-box; */
-  /* background-color: aqua; */
+.header-left {
+  display: flex;
+  align-items: center;
 }
 
-#right {
-  width: 60%;
-  box-sizing: border-box;
+.header-right {
+  display: flex;
+  align-items: center;
 }
 
-div {
-  box-sizing: border-box;
-  margin: 20px;
+nav {
+  width: 100%;
 }
 
-button {
-  background-color: white;
-  font-size: 15px;
-  padding: 10px 20px;
+nav ul {
+  display: flex;
+  align-items: center;
+  padding-left: 48px;
+  list-style: none;
 }
 
-footer {
+nav ul li {
+  padding: 6px 12px;
+  float: left;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  padding-top: 100px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 100px;
   text-align: center;
 }
 
 button {
-  display: inline-block;
-  margin-top: 20px;
+  margin-right: 15px;
+  padding: 20px 30px;
+  font-size: 20px;
+  display: inline block;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
 }
 
-button:hover {
-  cursor: pointer;
+.generate-button {
+  background-color: blue;
 }
 
-.right-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 15px;
-  place-items: center;
-  margin: 0;
-  align-items: stretch;
-  /* background-color: blue; */
-}
-
-img {
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-}
-
-img:hover {
-  cursor: pointer;
-}
-
-.small-category {
-  border-top: 0.5px solid rgba(255, 255, 255, 0.395);
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.label {
-  box-sizing: border-box;
-  margin: 10px;
-}
-
-.label:first-child {
-  margin-left: 15px;
+.how-it-works-button {
+  background-color: gray;
 }
