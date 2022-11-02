@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: grid;
+}
+
+.montage-generator-header {
+  width: 100%;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  padding-left: 48px;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 6px 12px;
+  float: left;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  padding-top: 100px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 100px;
+  text-align: center;
+}
+
+button {
+  margin-right: 15px;
+  padding: 20px 30px;
+  font-size: 20px;
+  display: inline block;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+}
+
+.generate-button {
+  background-color: blue;
+}
+
+.how-it-works-button {
+  background-color: gray;
+}
