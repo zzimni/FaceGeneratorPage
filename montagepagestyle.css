@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  display: flex;
+  /* display: flex; */
   flex-wrap: nowrap;
   align-items: stretch;
 }
@@ -50,15 +50,14 @@ button:hover {
   cursor: pointer;
 }
 
-.right-container {
+/* .right-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
   place-items: center;
   margin: 0;
   align-items: stretch;
-  /* background-color: blue; */
-}
+} */
 
 img {
   box-sizing: border-box;
@@ -70,6 +69,11 @@ img:hover {
   cursor: pointer;
 }
 
+.big-category {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 50px;
+}
 .small-category {
   border-top: 0.5px solid rgba(255, 255, 255, 0.395);
   padding-left: 10px;
