@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  place-items: center;
+  margin: 10px;
+  align-items: stretch;
+}
+
+img {
+  height: 300px;
+  width: 200px;
+}
+
+.buttons {
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  font-size: 15px;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: auto;
+}
